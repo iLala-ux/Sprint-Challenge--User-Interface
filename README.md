@@ -77,7 +77,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [ ] box1: `teal`
 * [ ] box2: `gold`
 * [ ] box3: `cadetblue`
-* [ ] box4: `coral`
+* [ X] box4: `coral`
 * [ ] box5: `crimson`
 * [ ] box6: `forestgreen`
 * [ ] box7: `darkorchid`
