@@ -65,7 +65,53 @@ h1, h2, h3, h4, h5 {
 p {
     line-height: 1.4;
 }
+/* NAV STYLES*//* NAV STYLES*//* NAV STYLES*//* NAV STYLES*//* NAV STYLES*//* NAV STYLES*/
+a{
+	text-align: left;
+	padding: 4%;
+	text-decoration: none;
+	font-style: bold;
+	color: lightgrey;
+}
+nav{
+	background-image:linear-gradient(0.25turn, rgb(28, 68, 179), rgb(224, 27, 13), rgb(157, 12, 214)); ;
+	background-color: rgb(192, 157, 221);
+    display: flex;
+	font-size: 20px;
+	padding:20px;
+	position: fixed;
+	top: 0%;
+	width:100%;
+}
+.nav a{
+	
+	text-decoration: none;
+	font-family: 'Bellota';
+	line-height: 2.5em;
+	padding-right: 2.8em;
+	
+}
+nav a:before{
+	content: '';
+	position: relative;
+	top: 0;
+	left:40px;
 
+}
+nav a:hover:before{
+	content: '*';
+	color: rgb(252, 161, 58);
+	position: relative;
+	top: 0%;
+	left: 0;
+}
+nav a:after{
+	content:'';
+	color:hotpink;
+	position: relative;
+	top: 0;
+	right: 40px;
+}
 .container {
     width: 800px;
     margin: 0 auto;
@@ -101,17 +147,30 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
-    width: 12.5%;
-    height: 100px;
-    background: black;
-    margin: 20px 2.5%;
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+#box-1{
+    background: teal;
 }
-
+#box-2{
+    background: gold;
+}
+#box-3{
+    background: cadetblue;
+}
+#box-4{
+    background: coral;
+}
+#box-5{
+    background:crimson}
+#box-6{
+    background:forestgreen}
+#box-7{
+    background:darkorchid}
+#box-8{
+    background:hotpink}
+#box-9{
+    background:indigo}
+#box-10{
+    background:dodgerblue}
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -132,15 +191,19 @@ footer {
 }
 
 footer nav {
-    width: 60%;
-    display: flex;
+    width: 100%;
+    overflow: hidden;
+    bottom: 0;
     justify-content: space-between;
-    align-items: center;
-    padding: 20px 2%;
+    
+    padding: 0px 3%;
+
     font-size: 14px;
+
 }
 
 footer nav a {
     color: white;
     text-decoration: none;
+    display: inline;
 }
