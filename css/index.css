@@ -64,25 +64,103 @@ h1, h2, h3, h4, h5 {
 
 p {
     line-height: 1.4;
+    align-content: center;
 }
+/* NAV STYLES*//* NAV STYLES*//* NAV STYLES*//* NAV STYLES*//* NAV STYLES*//* NAV STYLES*/
 
-.container {
+img.lambda-logo{
+    
+    display: flex;
+    flex-direction: row-reverse;
+    
+
+    
+}	
+head{
+    display:flex;
+    
+    width:100%;
+    margin-top:40px;
+}
+.nav-container {
+    padding: 20px 2% 20px 0;
+    display: flex;
+    flex-direction: row;
+	font-size: 14px;
+    align-items: flex-end;
+    justify-content: space-between;
+    
+}
+.nav-container a{
+	color: black;
+    text-decoration: none;
+    display: flex;
+    
+    font-size: 15px;
+    
+    
+    
+}
+/*nav a:before{
+	content: '';
+	position: relative;
+	top: 0;
+	left:40px;
+
+}
+nav a:hover:before{
+	content: '`^`';
+	color: rgb(252, 161, 58);
+	position: relative;
+	top: 0%;
+	left: 0;
+}
+nav a:after{
+	content:'';
+	color:hotpink;
+	position: relative;
+	top: 0;
+	right: 40px;
+}*/
+
+.wrapper{
     width: 800px;
     margin: 0 auto;
+    
+   
 }
 
 .top-content {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: space-evenly;
+    margin: 0 2% 20px;
+    justify-content: space-between;
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
-
-.top-content .text-container {
-    width: 48%;
+.top-content h2 {
+    width: 100%;
+    margin-top: 3%;
+}
+.text-container2{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
     padding: 0 1%;
-    padding-bottom: 20px;  
+    padding-bottom: 20px;
+}
+
+
+.text-container3{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 0 1%;
+    padding-bottom: 20px;
+    
+}
+.middle-content h2 {
+    padding: 0 2%;
+    margin-bottom: 0;
 }
 
 .middle-content {
@@ -90,10 +168,6 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
-    padding: 0 2%;
-    margin-bottom: 0;
-}
 
 .middle-content .boxes {
     display: flex;
@@ -101,17 +175,107 @@ p {
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+#box-1{
+    background: teal;
     width: 12.5%;
     height: 100px;
-    background: black;
     margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
 }
-
+#box-2{
+    background: gold;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box-3{
+    background: cadetblue;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box-4{
+    background: coral;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box-5{
+    background:crimson;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box-6{
+    background:forestgreen;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box-7{
+    background:darkorchid;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box-8{
+    background:hotpink;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box-9{
+    background:indigo;
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#box-10{
+    background:rgb(32, 142, 252);
+    width: 12.5%;
+    height: 100px;
+    margin: 20px 2.5%;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* BOTTOM CONTENT*/
 .bottom-content {
     display: flex;
     margin: 0 2% 20px;
@@ -125,22 +289,23 @@ p {
 .bottom-content .text-container:last-child {
     padding-right: 0;
 }
-
+/*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*//*FOOTER*/
 footer {
     width: 100%;
-    background: black;
+    background: rgb(0, 0, 0);
+    
 }
 
 footer nav {
     width: 60%;
-    display: flex;
-    justify-content: space-between;
+    display: flex; 
     align-items: center;
+    justify-content: space-between;
     padding: 20px 2%;
     font-size: 14px;
+    
 }
-
 footer nav a {
-    color: white;
+    color: rgb(250, 249, 249);
     text-decoration: none;
 }
